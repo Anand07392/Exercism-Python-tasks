@@ -24,5 +24,3 @@ def adjective_to_verb(sentence, index):
     for word in list:
         if word == list[index]:
             return word.strip(".") + "en"
-        else:
-            pass
