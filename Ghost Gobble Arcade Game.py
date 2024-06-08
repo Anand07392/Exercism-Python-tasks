@@ -22,7 +22,7 @@ def lose(power_pellet_active, touching_ghost):
 def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
     if has_eaten_all_dots:
         if touching_ghost and not power_pellet_active:
-            return False  # Pac-Man loses
-        return True  # Pac-Man wins
-    return False  # Pac-Man has not eaten all dots, hence cannot win
+            return False  
+        return True 
+    return False  
     
