@@ -39,10 +39,10 @@ def assign_seats(passengers):
 
 
 def assign_seats(passengers):
-    seat_gen = generate_seats(len(passengers))
+    seat_gene = generate_seats(len(passengers))
     seat_assignment = {}  
     for passenger in passengers:
-        seat_assignment[passenger] = next(seat_gen)    
+        seat_assignment[passenger] = next(seat_gene)    
     return seat_assignment
 
 
