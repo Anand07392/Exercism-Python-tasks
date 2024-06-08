@@ -13,8 +13,8 @@ def list_contains_round(rounds, number):
 def card_average(hand):
     total = sum(hand)
     number_of_cards = len(hand)
-    average = total / number_of_cards
-    return average   
+    avg = total / number_of_cards
+    return avg   
         
 
 def approx_average_is_average(hand):
