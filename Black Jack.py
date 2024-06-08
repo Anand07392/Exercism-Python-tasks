@@ -65,6 +65,3 @@ def can_double_down(card_one, card_two):
             card_two) <= 11:
         return True
     return False
-
-
-    
