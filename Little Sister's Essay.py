@@ -10,9 +10,11 @@ def check_sentence_ending(sentence):
     else:
         return False
         
+        
 def clean_up_spacing(sentence):
     str(sentence)
     return sentence.strip()
+    
 
 def replace_word_choice(sentence, old_word, new_word):
     str(sentence)
