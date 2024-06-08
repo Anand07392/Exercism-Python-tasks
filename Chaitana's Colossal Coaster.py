@@ -9,9 +9,9 @@ def add_me_to_the_queue(express_queue, normal_queue, ticket_type, person_name):
         raise ValueError("Invalid ticket type. Must be 1 (express) or 0 (normal).")
 
 
-def find_my_friend(queue, friend_name):
-    list(queue)
-    return queue.index(friend_name)
+def find_my_friend(queu, friend_name):
+    list(queu)
+    return queu.index(friend_name)
 
 
 def add_me_with_my_friends(queue, index, person_name):
