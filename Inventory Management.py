@@ -1,7 +1,6 @@
 def create_inventory(items):
     inventory = {}
     for item in items:
-    # Use the get() method with a default value of 0 for quantity
         inventory[item] = inventory.get(item, 0) + 1
     return inventory
 
