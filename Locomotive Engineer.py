@@ -14,7 +14,7 @@ def add_missing_stops(routing, **kwargs):
     stops = []
     for key, value in kwargs.items():
         if isinstance(value, dict):
-            sorted_stops = sorted(value.items(), key=lambda item: item[0])
+            sorted_stops = sorted(value.items(), key = lambda item: item[0])
             stops.extend([stop for _, stop in sorted_stops])
         else:
             stops.append(value)
