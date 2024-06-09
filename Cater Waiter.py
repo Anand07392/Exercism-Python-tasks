@@ -57,7 +57,5 @@ def singleton_ingredients(dishes, intersection):
     all_ingredients = set()
     for dish in dishes:
         all_ingredients.update(dish)
-    # Find singleton ingredients by subtracting intersections from the union
     singleton_ingredients = all_ingredients - intersection
-
     return singleton_ingredients
