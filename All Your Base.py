@@ -1,5 +1,5 @@
 def rebase(input_base, digits, output_base):
-    if input_base <2:
+    if input_base < 2:
         raise ValueError("input base must be >= 2")
     if output_base < 2:
         raise ValueError("output base must be >= 2")
