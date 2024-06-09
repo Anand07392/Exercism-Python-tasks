@@ -1,5 +1,5 @@
 def equilateral(sides):
-    a, b, c =sides
+    a, b, c = sides
     if a > 0 and b > 0 and c > 0:
         if a == b == c:
             return True
