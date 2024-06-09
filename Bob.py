@@ -4,8 +4,7 @@ def response(message):
     if message.isupper():
         if message.endswith('?'):
             return "Calm down, I know what I'm doing!"
-        else:
-            
+        else:           
             return "Whoa, chill out!"
     if message.strip().endswith('?'):
         return "Sure."
