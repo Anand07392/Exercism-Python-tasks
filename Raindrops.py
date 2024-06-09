@@ -1,4 +1,4 @@
-def convert(numbe):
+def convert(number):
     result = ""
     if number % 3 == 0:
         result += "Pling"
