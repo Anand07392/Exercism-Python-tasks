@@ -1,4 +1,4 @@
-def steps(numbe):
+def steps(number):
     if number <= 0:
         raise ValueError("Only positive integers are allowed")
     steps = 0
