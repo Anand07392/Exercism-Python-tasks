@@ -5,6 +5,7 @@ def response(message):
         if message.endswith('?'):
             return "Calm down, I know what I'm doing!"
         else:
+            
             return "Whoa, chill out!"
     if message.strip().endswith('?'):
         return "Sure."
