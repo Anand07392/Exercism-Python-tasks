@@ -1,5 +1,5 @@
 def get_coordinate(record):
-    s=record[1]
+    s = record[1]
     return s
 
 
